@@ -13,5 +13,13 @@ namespace Pruebas {
         public Form1() {
             InitializeComponent();
         }
+
+        private void Mensaje() {
+            MessageBox.Show("Hola mundo");
+        }
+
+        private void Form1_Load(object sender, EventArgs e) {
+            Mensaje();
+        }
     }
 }
