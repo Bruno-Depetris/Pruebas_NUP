@@ -23,5 +23,9 @@ namespace Pruebas {
         {
             MessageBox.Show("Esta re buena");
         }
+
+        private void SexoAnal() {
+            MessageBox.Show("Hola soy bruno edite"),
+        }
     }
 }
